@@ -1,22 +1,22 @@
-### Laravel Yandex Money Http Notification
-This packages helps to validate yandexMoney http notification.
-Laravel Middleware stay front of your API and allow yandex notification what you can trust.
+## Laravel Yandex Money Http Notification
+This package helps to validate yandexMoney http notification. Laravel Middleware stay front of your API and allow only trusted notifications.
 
+[Notification p2p incoming](https://tech.yandex.ru/money/doc/dg/reference/notification-p2p-incoming-docpage/)
 
-##Install
+### Install
 
 ``` bash
 composer require zzzaaa/laravel-yandex-money-http-notify
 ```
 
-##install Middleware
+### install Middleware
 
 ```php
 // app/Http/Kernel.php
-    protected $routeMiddleware = [
-    ...
-        'yandexmoney.hash' => \Zzzaaa\LaravelYandexMoneyHttpNotify\Middleware\YandexMoneyHash::class,
-    ];
+protected $routeMiddleware = [
+...
+'yandexmoney.hash' => \Zzzaaa\LaravelYandexMoneyHttpNotify\Middleware\YandexMoneyHash::class,
+];
 ```
 
 ##Add secret key
@@ -28,7 +28,7 @@ composer require zzzaaa/laravel-yandex-money-http-notify
     ],
 ```
 
-## Add middleware to routes
+### Add middleware to routes
 
 ```php
 
