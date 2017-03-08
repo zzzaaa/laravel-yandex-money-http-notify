@@ -1,0 +1,16 @@
+{
+    "name": "zzzaaa/laravel-yandex-money-http-notify",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alexey Raksha",
+            "email": "alexey@mailovka.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Zzzaaa\\LaravelYandexMoneyHttpNotify\\": "src/"
+        }
+    }
+}
