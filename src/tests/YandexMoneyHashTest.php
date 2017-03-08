@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Middleware\YandexMoneyHash;
+use Zzzaaa\LaravelYandexMoneyHttpNotify\Middleware\YandexMoneyHash;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\HttpKernel\Exception\HttpException;
